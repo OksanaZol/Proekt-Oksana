@@ -1,0 +1,338 @@
+body{
+margin: 0;
+padding: 0;
+width: auto;
+height: auto;
+}
+header{
+background-color:#87509C ;
+height: 600px;
+}
+header .logo{
+margin-top: 50px;
+margin-left: 50px ;
+}
+
+header .home-link {
+margin-left: 500px;
+font-size: 16px;
+}
+
+h1{
+color:white;
+text-align: center;
+margin-top: 180px;
+}
+header a {
+color:white;
+padding-left: 20px;
+}
+.header-button{
+color:white;
+text-align: center;
+background-color:#EB7D4B ;
+margin-left: 540px;
+height: 80px;
+width:220px;
+font-size: 16px;
+text-transform: uppercase;
+}
+
+  
+.services{
+height: 700px;
+width: auto;
+background-color: #17c2a4;
+text-align: center;
+}
+.services img {
+max-width: 70%;
+max-height: 70%;
+
+}
+.services h1{
+padding-top: 120px;
+margin: 40px;
+font-size: 30px;
+}
+.services hr{ 
+width:55px ;
+background-color: #78817f;
+height: 3px;
+
+}
+.services p{
+font-size: 16px;
+color: white;
+}
+
+.services h2{
+color: white;
+font-size: 18px;
+}
+
+.img {
+display: inline-block;
+padding-left: 70px;
+height: auto;
+}
+
+.team{
+background-color: #E7F1F8;
+height: auto;
+width: auto;
+text-align: center;
+}
+.team h1{
+color:#3C4761;
+font-size: 30px;
+font: bold;
+}
+.team h4{
+color:#3C4761;
+font: bold;
+font-size: 18px; 
+text-align: center;
+}
+.team h2{
+font-size: 24px;
+color: #393939;
+}
+.team h3{
+font-size: 18px;
+color: #30BAE7;
+}
+
+.team h6{
+color:#3C4761;
+font-size: 18px;
+width: 240px;
+}
+.team img{
+display: inline-block;
+text-align: center;
+}
+
+.skills{
+background-color: white;
+height: auto;
+width: auto;
+text-align: center;
+}
+.skills p{
+text-align: center;
+color: grey;
+
+}
+.skills h1{
+font-size: 35px;
+}
+.skills h2{
+font: bold;
+color: #393939;
+font-size: 25px;
+}
+
+.flex-wrapper {
+display: flex;
+flex-flow: row nowrap;
+}
+  
+.single-chart {
+width: 33%;
+justify-content: space-around ;
+}
+  
+.circular-chart {
+display: block;
+margin: 10px auto;
+max-width: 80%;
+max-height: 250px;
+}
+  
+.circle-bg {
+fill: none;
+stroke: #eee;
+stroke-width: 3.8;
+}
+  
+.circle {
+fill: none;
+stroke-width: 2.8;
+stroke-linecap: round;
+animation: progress 1s ease-out forwards;
+}
+  
+@keyframes progress {
+0% {
+stroke-dasharray: 0 100;
+}
+}
+.circular-chart.blue .circle {
+stroke:#30BAE7;
+  }
+.circular-chart.red .circle {
+stroke: #D74680;
+}
+  
+.circular-chart.green .circle {
+stroke: #4CC790;
+}
+  
+.circular-chart.orange .circle {
+stroke: #EB7D4B;
+}
+  
+   
+.percentage {
+fill: #666;
+font-family: sans-serif;
+font-size: 0.5em;
+text-anchor: middle;
+}
+
+
+.portfolio {
+background-color:#FFDD99;
+height: auto;
+width: auto;
+text-align: center;
+}
+.portfolio h1 {
+font-size: 30px;
+}
+.portfolio hr {
+background-color: #EBC985;
+}
+.portfolio p {
+font-size: 16px;
+text-align:center;
+}
+
+.portfolio button {
+margin: 20px;
+background-color:#EBC985;
+text-align: center;
+height: 25px;
+width: 90px;
+border-radius: 4px; 
+display: inline-block;
+text-transform: uppercase;
+}
+
+.portfolio h3{
+font-size: 14px;
+}
+ 
+.portfolio nav {
+color: white;
+background-color:#17C2A4;
+width: 300px;
+height: 50px;
+text-align: center;
+padding-top: 40px;
+margin-left: 500px;
+}
+.portfolio .box{
+display: inline-block;
+max-width: 550px;
+margin: 0 auto 30px auto;
+}
+
+
+
+.about{
+height: auto;
+width: auto;
+background-color: #D74680;
+text-align: center;
+}
+
+.about h1{
+font-size: 30px;
+color: white;
+}
+
+.about h5{
+font-size: 18px;
+color: white;
+width: 480px;
+height: 50px;
+text-align:left;
+}
+
+.about h2{
+color: white;
+}
+
+.about h3{
+font-size: 18px;
+color: rgb(241, 165, 121);
+text-align: left;
+padding-left: 150px;
+}
+.about p{
+color: white;
+}
+.about h4{
+color: white;
+}
+.about img{
+float: left;
+display: inline;
+padding-left: 30px;
+padding-right: 30px;
+}
+.img .about{
+padding: 30px;
+padding-bottom: 20px;
+}
+
+.touch{
+height: auto;
+width: auto;
+background-color: #3C5499;
+text-align: center;
+}
+
+.touch textarea{ 
+background-color: #273A71;
+width: 750px;
+height: 110px;
+color: white;
+padding: 20px;
+margin: 30px;
+margin-top: 50px;
+border-radius: 5px;
+}
+
+.touch  .info{
+background-color: #273A71;
+text-align:center;
+padding: 20px;
+border-radius: 4px;
+}
+.touch button{
+color:white;
+background-color: turquoise;
+text-align: center;
+margin-bottom: 90px;
+height: 45px;
+width: 200px;
+border-radius: 4px;
+
+}
+.footer{
+background-color: #273A71;
+padding: 20px;
+height: 40px;
+width: auto;
+}
+
+.footer a{
+color: white;
+padding-left: 70px;
+font-size: 18px;
+width: auto;
+margin-top: 300px;    
+}
